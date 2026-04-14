@@ -3,119 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Smit Patel | Portfolio</title>
+    <title>My Portfolio</title>
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
         body {
-            background: #0f172a;
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
             color: white;
-        }
-
-        header {
-            background: #1e293b;
-            padding: 20px;
             text-align: center;
+            padding: 40px;
         }
 
-        header h1 {
+        .container {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 10px;
+            width: 350px;
+            margin: auto;
+            box-shadow: 0 0 10px black;
+        }
+
+        h1 {
             color: #38bdf8;
         }
 
-        nav a {
-            margin: 10px;
-            color: white;
-            text-decoration: none;
-        }
-
-        section {
-            padding: 40px;
-            text-align: center;
-        }
-
-        .card {
-            background: #1e293b;
-            margin: 15px auto;
-            padding: 20px;
-            width: 300px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px #000;
-        }
-
-        .btn {
-            background: #38bdf8;
-            padding: 10px 20px;
-            border: none;
-            color: black;
-            cursor: pointer;
-            border-radius: 5px;
-            margin-top: 10px;
-        }
-
-        footer {
-            background: #1e293b;
-            text-align: center;
-            padding: 15px;
-            margin-top: 20px;
+        p {
+            font-size: 18px;
+            margin: 10px 0;
         }
     </style>
 </head>
 
 <body>
 
-    <header>
+    <div class="container">
         <h1>Smit Patel</h1>
-        <p>Student | Developer | Tech Enthusiast</p>
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+        <p><strong>SSC Percentage:</strong> 85%</p>
+        <p><strong>HSC Percentage:</strong> 80%</p>
 
-    <!-- About -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a passionate student interested in programming, electronics, and building innovative projects like solar tracking systems.
-        </p>
-    </section>
+        <p><strong>Current College:</strong> ABC Engineering College</p>
 
-    <!-- Projects -->
-    <section id="projects">
-        <h2>My Projects</h2>
-
-        <div class="card">
-            <h3>Solar Tracking System</h3>
-            <p>Automatic solar panel that tracks sunlight using LDR sensors.</p>
-        </div>
-
-        <div class="card">
-            <h3>Screen Time Control App</h3>
-            <p>App that limits mobile usage and improves productivity.</p>
-        </div>
-
-    </section>
-
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: smit@example.com</p>
-        <p>GitHub: github.com/yourusername</p>
-
-        <button class="btn">Message Me</button>
-    </section>
-
-    <footer>
-        <p>© 2026 Smit Patel | Portfolio</p>
-    </footer>
+        <p><strong>Interests:</strong> Programming, Electronics, IoT Projects, App Development</p>
+    </div>
 
 </body>
 </html>
